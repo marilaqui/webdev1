@@ -1,0 +1,68 @@
+body {
+    max-width: 40rem;
+    margin: 0 auto;  
+    font-family: 'Montserrat', sans-serif;
+    background:rgb(250, 245, 245);
+    color:rgb (240, 240, 240);
+}
+
+header{
+    text-align: center;
+    padding: 2rem;
+}
+
+header h1{
+    margin: 0;
+    background: rgb
+    font-size: 3rem;
+}
+
+header h2 {
+    font-weight: 400;
+}
+
+nav a {
+    margin: 0 1rem;
+    color: rgb(88, 209, 99)
+    font-size: 1.5rem;
+    line-height: 2em;
+}
+
+nav a:hover{
+    color: rgb(138,159,255)
+}
+
+main {
+    background: rgb(233, 210, 175);
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    max-width: 30rem;
+    margin: 0 auto;
+    display: block;
+}
+
+section {
+    margin: 3rem 0;
+    border-left: .5rem solid rgb(138, 96, 96);
+}
+
+section h3{
+    font-size: italic; 
+    background: rgb(60, 60, 60)
+    margin: 0;
+    padding: .5rem;
+}
+
+section p {
+    background: rgb(235, 201, 150);
+    margin: 0;
+}
+footer p{
+    background: rgb(40, 40, 40)
+    margin: 0;
+    padding: 2rem;
+}
