@@ -1,0 +1,18 @@
+body {
+    background-image: url(https://media0.giphy.com/media/xT9DPBKz41Wipyo6K4/200.gif);
+      });
+    max-width: 40rem;
+    font-family: 'Montserrat', sans-serif;
+
+}
+h1 {
+    position: absolute;
+}
+div.fixed {
+    position: fixed;
+    bottom: 10;
+    right: 10;
+  }
+footer {
+    font-family:'Grey Qo', cursive;
+}
