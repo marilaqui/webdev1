@@ -8,7 +8,7 @@ body {
 h1 {
     position: absolute;
 }
-div.fixed {
+.fixed {
     position: fixed;
     bottom: 10;
     right: 10;
