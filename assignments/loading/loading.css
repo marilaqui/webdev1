@@ -1,16 +1,16 @@
 .box{
-    height: 500px;
+    height: 400px;
     overflow: hidden;
     background-color: lightblue;
     text-align: center;
     width: 100%;
-    position: relative;
-    font-size: 430px;
+    position: fixed;
+    font-size: 330px;
 }
 
 .box span{
     display: block;
-    height: 100%;
+    height: 400px;
     color: white;
     
 }
@@ -20,6 +20,11 @@
     animation: progress-bar 10s ease-in-out;
     animation-fill-mode: both;
     color: white;
+}
+
+.text {
+    background: transparent;
+    
 }
 
 @keyframes progress-bar {
