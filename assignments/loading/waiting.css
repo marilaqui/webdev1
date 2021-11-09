@@ -18,14 +18,14 @@
   .waiting span{
     position: absolute;
     display: block;
-    height: 500px;
-    width: 500px;
+    height: 35vw;
+    width: 35vw;
     background: pink;
     border: 1px solid pink;
     border-radius: 100%;
   }
   .waiting span:nth-child(1){
-    transform: translate(-211px, -211px);
+    transform: translate(-15vw, -15vw);
   }
   @keyframes piece1 {
     60%{
@@ -33,7 +33,7 @@
     }
   }
   .waiting span:nth-child(2){
-    transform: translate(211px, -211px);
+    transform: translate(15vw, -15vw);
    
   }
   @keyframes piece2 {
@@ -60,9 +60,9 @@
     opacity: 0;
     -webkit-animation: flash 3s;
     animation: flash 3s;
-    font-size: 100px;
+    font-size: 50px;
     text-align:center;
-    margin-top: 25%;
+    margin-top: 6%;
     animation-iteration-count: infinite;
     color:plum;
 

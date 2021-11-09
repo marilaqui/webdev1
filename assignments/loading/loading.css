@@ -1,16 +1,16 @@
 .box{
-    height: 400px;
+    height: 40px;
     overflow: hidden;
     background-color: lightblue;
     text-align: center;
     width: 100%;
     position: fixed;
-    font-size: 330px;
+    font-size: 33px;
 }
 
 .box span{
     display: block;
-    height: 400px;
+    height: 40px;
     color: white;
     
 }
