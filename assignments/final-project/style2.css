@@ -1,14 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Karla:ital,wght@1,300&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Grey+Qo&family=Karla:ital,wght@1,300&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Karla:ital,wght@1,300&display=swap');
 
 body {
     max-width: 40rem;
     margin: 0 auto;  
-    font-family: 'Karla', sans-serif;
+    font-family: 'Fuzzy Bubbles',sans-serif;
     background:rgb(250, 245, 245);
     color:rgb (240, 240, 240);
+
+}
+
+p {
+    font-family: 'Karla',sans-serif;
 }
 
 header{
@@ -23,15 +27,19 @@ header h1{
     margin: 0;
     background: rgb;
     font-size: 3rem;
+    font-family: 'Fuzzy Bubbles',sans-serif;
+    
 }
 
 header h2 {
     font-weight: 400;
+    font-family: 'Fuzzy Bubbles',sans-serif;
 }
 
 nav {
     margin-bottom: 50px;
     text-align: center;
+    font-family: 'Fuzzy Bubbles',sans-serif;
 }
 nav a {
     margin: 0 1rem;
@@ -74,7 +82,6 @@ section {
     margin: 3rem 0;
 }
 
-/* strawberry header */
 section img {
     width: 100%;
     max-width: 60 rem;
@@ -82,8 +89,7 @@ section img {
     display: block;
     margin-bottom: 70px;
 }
-
-section h3 {
+section h3{
     font-size: italic; 
     background: rgb(60, 60, 60);
     margin: 0;
@@ -113,7 +119,22 @@ footer p{
     padding-right: 20px;
 }
 
-.carrot {
-    width: 250px;
-    height: 200px;
+.dessertImages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 800px;
+    margin-bottom: 2px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 18px;
+}
+
+p {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 70px;
 }

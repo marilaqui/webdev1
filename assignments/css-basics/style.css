@@ -13,7 +13,7 @@ header{
 
 header h1{
     margin: 0;
-    background: rgb
+    background: rgb;
     font-size: 3rem;
 }
 
@@ -23,7 +23,7 @@ header h2 {
 
 nav a {
     margin: 0 1rem;
-    color: rgb(88, 209, 99)
+    color: rgb(88, 209, 99);
     font-size: 1.5rem;
     line-height: 2em;
 }
@@ -52,7 +52,7 @@ section {
 
 section h3{
     font-size: italic; 
-    background: rgb(60, 60, 60)
+    background: rgb(60, 60, 60);
     margin: 0;
     padding: .5rem;
 }
@@ -62,7 +62,7 @@ section p {
     margin: 0;
 }
 footer p{
-    background: rgb(40, 40, 40)
+    background: rgb(40, 40, 40);
     margin: 0;
     padding: 2rem;
 }
